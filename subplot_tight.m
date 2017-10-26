@@ -4,6 +4,7 @@ function h=subplot_tight(m,n,p,margins,varargin)
 % Functional purpose: A wrapper function for Matlab function subplot. Adds the ability to define the margins between
 % neighbouring subplots. Unfotrtunately Matlab subplot function lacks this functionality, and the margins between
 % subplots can reach 40% of figure area, which is pretty lavish.  
+% Don't accept it. Just checking
 %
 % Input arguments (defaults exist):
 %   margins- two elements vector [vertical,horizontal] defining the margins between neighbouring axes. Default value
